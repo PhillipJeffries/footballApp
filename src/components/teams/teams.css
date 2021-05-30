@@ -1,0 +1,32 @@
+.teamsContainer {
+    text-align: center;
+}
+
+.teamsWrapper {
+    display: flex;
+   
+    
+
+}
+
+.teamsListWrapper > ul {
+    list-style: none;
+    padding: 5px;
+    text-align: left;
+    height: 300px;
+    overflow: scroll;
+
+   
+    
+}
+
+.teamsListWrapper > ul >li {
+    
+    padding: 2px;
+    margin: 2px;
+
+}
+
+.teamsListWrapper > ul >li:hover{
+    cursor: pointer;
+}

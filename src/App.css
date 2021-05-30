@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.routeList{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.routeList > li {
+  padding: 10px;
+  margin: 0;
+}
+
+
+
+.routeLink {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
